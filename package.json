@@ -1,4 +1,5 @@
 {
+  "name": "tsgfw-demo-squares",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
