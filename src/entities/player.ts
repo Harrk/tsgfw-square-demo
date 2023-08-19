@@ -30,7 +30,7 @@ export class Player extends Entity {
 
     render(renderer: RendererInterface) {
         renderer.drawRect(new Rect(
-            this.collision_rect.x, this.collision_rect.y, this.collision_rect.width, this.collision_rect.height
+            this.collision_rect.position.x, this.collision_rect.position.y, this.collision_rect.width, this.collision_rect.height
         ), 'orange');
     }
 }
