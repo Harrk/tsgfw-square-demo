@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.1",
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "tsgfw": "https://github.com/Harrk/ts-game-framework"
+  }
+}
